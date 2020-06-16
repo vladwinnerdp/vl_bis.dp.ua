@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fieldset name="basic">
+        <field name="mode" type="list"
+            label="COM_CONVERTFORMS_FIELD_DATETIME_MODE"
+            description="COM_CONVERTFORMS_FIELD_DATETIME_MODE_DESC"
+            default="date">
+                <option value="single">NR_SINGLE</option>
+                <option value="multiple">NR_MULTIPLE</option>
+                <option value="range">NR_RANGE</option>
+        </field>
+        <field name="dateformat" type="text"
+            label="COM_CONVERTFORMS_FIELD_DATETIME_FORMAT"
+            description="COM_CONVERTFORMS_FIELD_DATETIME_FORMAT_DESC"
+            default="d/m/Y H:i"
+            hint="d/m/Y H:i, m/d/Y, d-m-Y H:i"
+        />
+        <field name="mindate" type="text"
+            label="COM_CONVERTFORMS_FIELD_DATETIME_MIN_DATE"
+            description="COM_CONVERTFORMS_FIELD_DATETIME_MIN_DATE_DESC"
+            hint="today, tomorrow, -3 day, +5 day"
+        />
+        <field name="maxdate" type="text"
+            label="COM_CONVERTFORMS_FIELD_DATETIME_MAX_DATE"
+            description="COM_CONVERTFORMS_FIELD_DATETIME_MAX_DATE_DESC"
+            hint="+5 day, +2 month, +3 week"
+        />
+        <!-- Time -->
+        <field name="showtimepicker" type="list" 
+            label="COM_CONVERTFORMS_FIELD_DATETIME_TIMEPICKER"
+            description="COM_CONVERTFORMS_FIELD_DATETIME_TIMEPICKER_DESC"
+            default="1">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+        </field>
+        <field name="time24" type="list" 
+            label="COM_CONVERTFORMS_FIELD_DATETIME_TIME24"
+            description="COM_CONVERTFORMS_FIELD_DATETIME_TIME24_DESC"
+            default="0"
+            showon="showtimepicker:1">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+        </field>
+        <field name="minuteincrement" type="number"
+            label="COM_CONVERTFORMS_FIELD_DATETIME_MINUTE_STEP"
+            description="COM_CONVERTFORMS_FIELD_DATETIME_MINUTE_STEP_DESC"
+            default="5"
+            min="0"
+            showon="showtimepicker:1"
+            class="input-small"
+        />
+        <field name="inline" type="list" 
+            label="COM_CONVERTFORMS_FIELD_DATETIME_INLINE"
+            description="COM_CONVERTFORMS_FIELD_DATETIME_INLINE_DESC"
+            default="0">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+        </field>
+       <field name="theme" type="list"
+            label="COM_CONVERTFORMS_FIELD_DATETIME_THEME"
+            description="COM_CONVERTFORMS_FIELD_DATETIME_THEME_DESC"
+            default="">
+                <option value="">JDEFAULT</option>
+                <option value="dark">Dark</option>
+                <option value="material_blue">Material Blue</option>
+                <option value="material_green">Material Green</option>
+                <option value="material_red">Material Red</option>
+                <option value="material_orange">Material Orange</option>
+                <option value="airbnb">Airbnb</option>
+                <option value="confetti">Confetti</option>
+        </field>
+    </fieldset>
+    <fieldset name="advanced">
+        <field name="value" type="textarea"
+            label="COM_CONVERTFORMS_FIELD_VALUE"
+            description="COM_CONVERTFORMS_FIELD_VALUE_DESC"
+            class="span12 show-smart-tags"
+            hint="today, tomorrow, -3 day, +5 day"
+        />
+        <field name="disable_mobile" type="list" 
+            label="COM_CONVERTFORMS_FIELD_DATETIME_DISABLEMOBILE"
+            description="COM_CONVERTFORMS_FIELD_DATETIME_DISABLEMOBILE_DESC"
+            default="0">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+        </field>
+    </fieldset>
+</form>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5"
+           type="plugin"
+           group="ajax"
+           method="upgrade">
+	<name>Puzzles</name>
+	<version>0.1</version>
+	<author>Dmitry</author>	
+	<license>GNU General Public License version 2 or later</license>
+	<description>Puzzles</description>
+
+	<files>
+		<filename plugin="puzzles">puzzles.php</filename>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>

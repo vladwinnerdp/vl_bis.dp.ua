@@ -1,0 +1,374 @@
+	
+
+
+
+
+
+<!DOCTYPE HTML>
+<html prefix="og: http://ogp.me/ns#" lang="en-gb">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="author" href="https://plus.google.com/u/0/+TassosMarinos85"/>
+        <link href="//www.google-analytics.com" rel="dns-prefetch">
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-K49M3H');</script>
+        <!-- End Google Tag Manager -->
+
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="57x57" href="/templates/tm/img/fi/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/templates/tm/img/fi/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/templates/tm/img/fi/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/templates/tm/img/fi/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/templates/tm/img/fi/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/templates/tm/img/fi/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/templates/tm/img/fi/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/templates/tm/img/fi/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/templates/tm/img/fi/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/templates/tm/img/fi/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/templates/tm/img/fi/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/templates/tm/img/fi/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/templates/tm/img/fi/favicon-16x16.png">
+        <link rel="manifest" href="/templates/tm/img/fi/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/templates/tm/img/fi/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <base href="https://www.tassos.gr/user/login" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="web design, web development, kos island, joomla, joomla extensions" />
+	<meta name="description" content="Extensions developing agency specializing on the Joomla CMS Platform. Boost your Joomla websites towards completing their goals." />
+	<title>Login</title>
+	<link href="/media/com_rstbox/css/engagebox.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/tm/css/styles.css?v=40" rel="stylesheet" type="text/css" />
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+.rstboxes .boxSales p {
+   margin:0;
+}
+.rstboxes .boxSales {
+    font-family: Arial;
+    font-size: 15px;
+}
+.rstboxes .boxSales .rstbox-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.boxSales .code {
+    border: dashed 1px rgba(255, 255, 255, 0.4);
+    padding: 2px 7px;
+    display: inline-block;
+    margin: 0 8px;
+    font-family: monospace;
+    font-size: 14px;
+}
+.boxSales em {
+    background-color: #EA2727;
+    color: #fff;
+    padding: 4px 8px;
+    display: inline-block;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.boxSales a {
+    font-size: 12px;
+    line-height: 1;
+}
+.rstboxes .boxSales .rstbox-close {
+    padding: 14px;
+}
+@media (max-width: 800px) {
+   .rstboxes .boxSales .rstbox-content .text {
+       margin: 10px 0;
+   }
+}
+		#rstbox_59 .rstbox-close:hover {
+			color: rgba(255, 255, 255, 0.8) !important;
+		}	
+	
+	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"ed59af6478399f51d29140264d7703c1","system.paths":{"root":"","base":""},"system.keepalive":{"interval":3600000,"uri":"\/component\/ajax\/?format=json"},"joomla.jtext":{"JLIB_FORM_FIELD_INVALID":"Invalid field:&#160"}}</script>
+	<script src="/media/jui/js/jquery.min.js?60fa3b24f9858afdbdb3d8bba7d5bae8" type="text/javascript"></script>
+	
+	
+	
+	<script src="/media/system/js/core.js?60fa3b24f9858afdbdb3d8bba7d5bae8" type="text/javascript"></script>
+	<!--[if lt IE 9]><script src="/media/system/js/polyfill.event.js?60fa3b24f9858afdbdb3d8bba7d5bae8" type="text/javascript"></script><![endif]-->
+	
+	
+	
+	<!--[if lt IE 9]><![endif]-->
+	<script src="/media/com_rstbox/js/velocity.js" type="text/javascript"></script>
+	<script src="/media/com_rstbox/js/velocity.ui.js" type="text/javascript"></script>
+	<script src="/media/com_rstbox/js/engagebox.js" type="text/javascript"></script>
+	<script src="/templates/tm/js/script.js?v=1" type="text/javascript"></script>
+	<script type="text/javascript">
+
+            
+        
+	</script>
+	<!-- Start: Google Structured Data -->
+            
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://www.tassos.gr",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.tassos.gr/search?q={search_term}",
+        "query-input": "required name=search_term"
+    }
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "url": "https://www.tassos.gr",
+    "logo": "https://www.tassos.gr/images/logo.png"
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Tassos.gr",
+    "url": "https://www.tassos.gr",
+    "sameAs": [
+        "https://www.facebook.com/marinos.tassos",
+        "https://twitter.com/tassosm",
+        "https://plus.google.com/u/1/+TassosMarinos85/",
+        "https://www.linkedin.com/in/tassosmarinos",
+        "https://www.behance.net/tassosmarinos"
+    ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@id": "https://www.tassos.gr/",
+                "name": "Home"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "@id": "https://www.tassos.gr/component/users/?Itemid=126",
+                "name": "User"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "@id": "https://www.tassos.gr/user/login",
+                "name": "Login"
+            }
+        }
+    ]
+}
+</script>
+            <!-- End: Google Structured Data -->
+
+        
+    </head>
+    <body class="user login nothome  viewLogin">
+        
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K49M3H"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+            <ul class="usernav reset">
+        <li>
+            <a class="x icon-menu" href="#"></a>
+            <ul class="a"><ul class="nav menu reset mod-list">
+<li class="item-244"><a href="/downloads" >My Downloads</a></li><li class="item-269"><a href="/joomla-extensions/documentation" >Documentation</a></li><li class="item-158"><a href="/contact" >Support</a></li></ul>
+</ul>
+        </li>
+    </ul>
+
+
+                <header>
+            <div class="sidebar">
+                <div class="profile">
+                    <a href="https://www.tassos.gr/" title="Tassos Marinos | Passionate Developer of Joomla Extensions from Greece">
+                        <img class="noll" alt="Tassos Marinos | Passionate Developer of Joomla Extensions from Greece" src="https://www.tassos.gr/images/logo.jpg"/>
+                    </a>
+                    <div class="profile_detail">
+                        <div class="profile_name">Tassos Marinos</div>
+                        <div class="profile_desc">Passionate Developer of Joomla Extensions from Greece</div>
+                    </div>
+                    <a onclick="window.open('https://twitter.com/intent/follow?screen_name=tassosm','tassos.gr','width=500,height=500');" href="#" class="btn btn-primary icon-twitter btn-mini twbtn">
+                        Follow @tassosm
+                    </a>
+                </div>
+                			<div class="mod_menu">
+						<div class="mod-content"><ul class="nav menu child-inline reset mod-list">
+<li class="item-116 parent"><a href="/joomla-extensions" >Extensions</a></li><li class="item-115"><a href="/downloads" >Downloads</a></li><li class="item-114"><a href="/blog" >Blog</a></li><li class="item-149"><a href="/contact" >Support</a></li></ul>
+</div>
+		</div>
+	       
+            </div>
+        </header>
+        
+        <main>
+            <div id="container">
+                <div class="row">
+
+                    
+                    
+                    <div class="row">
+                        <div class="column ">
+                            <div class="login">
+			<div class="page-header">
+			<h1>
+				Login			</h1>
+		</div>
+									<form action="/user/login?task=user.login" method="post" class="form-validate form-horizontal well">
+		<fieldset>
+			
+<div class="control-group">
+			<div class="control-label">
+			<label id="username-lbl" for="username" class="required">
+	Username<span class="star">&#160;*</span></label>
+					</div>
+		<div class="controls">
+		<input type="text" name="username" id="username"  value="" class="validate-username required" size="25"       required aria-required="true"   autofocus    />
+	</div>
+</div>
+
+<div class="control-group">
+			<div class="control-label">
+			<label id="password-lbl" for="password" class="required">
+	Password<span class="star">&#160;*</span></label>
+					</div>
+		<div class="controls">
+		<input type="password" name="password" id="password" value=""   class="validate-password required"   size="25" maxlength="99" required aria-required="true"  />	</div>
+</div>
+										<div class="control-group">
+					<div class="control-label">
+						<label for="remember">
+							Remember me						</label>
+					</div>
+					<div class="controls">
+						<input id="remember" type="checkbox" name="remember" class="inputbox" value="yes" />
+					</div>
+				</div>
+						<div class="control-group">
+				<div class="controls">
+					<button type="submit" class="btn btn-primary">
+						Log in					</button>
+				</div>
+			</div>
+						<input type="hidden" name="return" value="MjQz" />
+			<input type="hidden" name="ed59af6478399f51d29140264d7703c1" value="1" />		</fieldset>
+	</form>
+</div>
+<div>
+	<ul class="nav nav-tabs nav-stacked">
+		<li>
+			<a href="/user/password-reset">
+				Forgot your password?			</a>
+		</li>
+		<li>
+			<a href="/user/forgot-username">
+				Forgot your username?			</a>
+		</li>
+							<li>
+				<a href="/user/create-account">
+					Don't have an account?				</a>
+			</li>
+			</ul>
+</div>
+
+                                                    </div>
+                                            </div>
+                </div>
+
+                <div class="footer">
+                    <div class="row collapse info">
+                        			<div class="mod column medium-3">
+							<div class="mod-head">
+					<h3>Joomla Extensions</h3>
+				</div>
+						<div class="mod-content"><ul class="nav menu mod-list">
+<li class="item-606"><a href="/joomla-extensions/engagebox" >Engage Box</a></li><li class="item-607"><a href="/joomla-extensions/google-structured-data-markup" >Google Structured Data</a></li><li class="item-608"><a href="/joomla-extensions/convert-forms" >Convert Forms</a></li><li class="item-609"><a href="/joomla-extensions/tweetme" >TweetMe</a></li><li class="item-680"><a href="/joomla-extensions/advanced-custom-fields" >Advanced Custom Fields</a></li><li class="item-796"><a href="/joomla-extensions/mailchimp-auto-subscribe" >MailChimp Auto-Subscribe</a></li></ul>
+</div>
+		</div>
+				<div class="mod column medium-3">
+							<div class="mod-head">
+					<h3>Useful Links</h3>
+				</div>
+						<div class="mod-content"><ul class="nav menu mod-list">
+<li class="item-795"><a href="/contact" >Contact</a></li><li class="item-493"><a href="/newsletter" >Newsletter</a></li><li class="item-330"><a href="/partners" >Partners</a></li><li class="item-382"><a href="/resources" >Resources</a></li><li class="item-734"><a href="https://www.joomlabeginner.com" target="_blank" rel="noopener noreferrer">Joomla Tutorials</a></li><li class="item-117"><a href="/license" >License</a></li><li class="item-610"><a href="/policy" >Policy</a></li></ul>
+</div>
+		</div>
+				<div class="mod modSocial column medium-3">
+							<div class="mod-head">
+					<h3>Follow Me</h3>
+				</div>
+						<div class="mod-content"><ul class="nav menu mod-list">
+<li class="item-602"><a href="https://twitter.com/tassosm" class="icon-twitter">Twitter</a></li><li class="item-603"><a href="https://www.facebook.com/marinos.tassos" class="icon-facebook">Facebook</a></li><li class="item-604"><a href="https://plus.google.com/u/0/+TassosMarinos85" class="icon-gplus">Google+</a></li><li class="item-605"><a href="https://www.linkedin.com/in/tassosmarinos" class="icon-linkedin">LinkedIn</a></li></ul>
+</div>
+		</div>
+	
+
+<div class="custom mod column medium-3 jdev"  >
+	<a href="https://extensions.joomla.org/profile/profile/details/230046/" target="_blank">
+<img alt="Joomla Extensions Developer - Tassos Marinos" src="/images/joomla-extensions-developer.png"/>
+</a>
+
+<div>Write a review on the <a href="https://extensions.joomla.org/profile/profile/details/230046/" target="_blank">JED</a> to help me spread the word and boost my motivation.</div></div>
+
+                    </div>
+                    <div class="row copyright text-center">
+                        &copy; 2018 - Tassos Marinos - All Rights Reserved
+                    </div>
+                </div>
+            </div>
+        </main>
+    
+<div class="rstboxes" data-t="ed59af6478399f51d29140264d7703c1" data-baseurl="https://www.tassos.gr/" data-site="bed7c4751843cebf7c25e1a619829ed2" data-debug="0" >
+
+	
+	
+	<div id="rstbox_59"  class="rstbox rstbox_top-left rstbox_custom  boxSales  rstbox-acm rstbox-acc rstbox_shd_1 formVer" data-settings='{"delay":"2000","transitionin":"transition.slideDownIn","transitionout":"transition.slideUpOut","duration":"400","autohide":"1","closeopened":"0","preventpagescroll":"0","log":"1","testmode":"0","autoclose":false}' data-trigger="pageload" data-cookietype="days" data-cookie="1" data-title="New Year Sale" style="max-width:100%;height:auto;background-color:rgba(24, 45, 80, 1);color:rgba(255, 255, 255, 1);border:none 15px rgba(46, 198, 100, 1);border-radius:0px;padding:15px;z-index:99999">
+		
+		
+<span data-ebox-cmd="closeKeep" class="rstbox-close" aria-label="Close" style="color:rgba(255, 255, 255, 0.4);font-size:23px">
+			<span aria-hidden="true">&times;</span>
+	</span>
+	
+
+		<div class="rstbox-container">
+						<div class="rstbox-content">
+				<p><em>NEW YEAR SALE</em> <span class="text">30% off any Tassos.gr extension. Coupon code</span> <span class="code">NEWYEAR30</span> 
+<!--<a href="/blog/black-friday-30-sale" data-ebox-cmd="closeKeep" data-ebox-prevent="0">Read More</a>--></p>			</div>
+		</div>
+			</div>	
+	</div>
+
+</body>
+</html>

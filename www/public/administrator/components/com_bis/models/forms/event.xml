@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset>
+        <field
+			name="id"
+			type="hidden"
+        />
+        <field
+			name="user_id"
+			type="text"
+			label="COM_BIS_EVENT_USER_ID_LABEL"
+			description="COM_BIS_EVENT_USER_ID_DESC"
+			size="40"
+			default=""
+        />
+        <field
+			name="name"
+			type="text"
+			label="COM_BIS_EVENT_NAME_LABEL"
+			description="COM_BIS_EVENT_NAME_DESC"
+			size="40"
+			default=""
+        />
+        <field
+			name="image"
+			type="media"
+			label="COM_BIS_EVENT_IMAGE_LABEL"
+			description="COM_BIS_EVENT_IMAGE_LABEL"
+        />
+        <field
+			name="url"
+			type="text"
+			label="COM_BIS_EVENT_URL_LABEL"
+			description="COM_BIS_EVENT_URL_DESC"
+			size="40"
+			default=""
+        />
+		<field
+			name="listid"
+			type="listid"
+			label="COM_BIS_EVENT_LISTID_LABEL"
+			size="40"
+			default=""
+		/>
+        <field
+			name="mailid"
+			type="mailid"
+			label="COM_BIS_EVENT_MAILID_LABEL"
+			size="40"
+			default=""
+        />
+		<field
+			name="event_group"
+			type="number"
+			label="COM_BIS_EVENT_EVENT_GROUP_LABEL"
+			description="COM_BIS_EVENT_EVENT_GROUP_DESC"
+			size="40"
+			default=""
+		/>
+		<field
+			name="difficulty"
+			type="list"
+			label="COM_BIS_EVENT_DIFFICULTY"
+			class="chzn-color-state"
+			size="1"
+			default="easy"
+			>
+			<option value="easy">COM_EVENT_EASY</option>
+			<option value="medium">COM_EVENT_MEDIUM</option>
+			<option value="hard">COM_EVENT_HARD</option>
+		</field>
+		<field
+			name="type"
+			type="list"
+			label="COM_BIS_EVENT_TYPE"
+			class="chzn-color-state"
+			size="1"
+			default="trade"
+			>
+			<option value="trade">COM_EVENT_TYPE_TRADE</option>
+			<option value="registration">COM_EVENT_TYPE_REGISTRATION</option>
+		</field>
+		<field
+			name="puzzle_type"
+			type="list"
+			label="COM_BIS_EVENT_PUZZLE_TYPE"
+			class="chzn-color-state"
+			size="1"
+			default="millionaire"
+		>
+            <option value="millionaire">COM_EVENT_PUZZLETYPE_MILLIONAIRE</option>
+		</field>
+		<field
+			name="check_answer"
+			type="list"
+			label="COM_BIS_EVENT_CHECK_ANSWER_LABEL"
+			description="COM_BIS_EVENT_CHECK_ANSWER_DESC"
+			size="1"
+			default="1"
+		>
+			<option value="0">JNo</option>
+			<option value="1">JYes</option>
+		</field>
+        <field
+			name="millionaire_question"
+			type="subform"
+			label="Questions"
+			multiple="true"
+			layout="joomla.form.field.subform.repeatable-table"
+			formsource="administrator/components/com_bis/models/forms/millionaire.xml"
+			showon="puzzle_type:millionaire"
+        />
+        <field
+			name="html"
+			type="subform"
+			label="Questions"
+			multiple="false"
+			layout="joomla.form.field.subform.repeatable-table"
+			formsource="administrator/components/com_bis/models/forms/html.xml"
+			showon="puzzle_type:millionaire"
+        />
+		<field
+			name="bonuses"
+			type="number"
+			label="COM_BIS_EVENT_BONUSES_LABEL"
+			description="COM_BIS_EVENT_BONUSES_DESC"
+			size="40"
+			default=""
+			pattern="[0-9]+([\.,][0-9]+)?"
+			step="0.01"
+		/>
+        <field
+			name="published"
+			type="list"
+			label="JSTATUS"
+			size="1"
+			default="1"
+        >
+            <option value="0">JNo</option>
+            <option value="1">JYes</option>
+        </field>
+    </fieldset>
+</form>

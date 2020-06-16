@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="submission" label="Submission" tab="conversion">
+        <field name="campaign" type="campaigns"
+            label="COM_CONVERTFORMS_COLLECT_LEADS_USING"
+            description="COM_CONVERTFORMS_COLLECT_LEADS_USING_DESC"
+            required="true"
+        />
+        <field name="onsuccess" type="list" 
+            label="COM_CONVERTFORMS_SUCCESSFUL_SUBMISSION"
+            description="COM_CONVERTFORMS_SUCCESSFUL_SUBMISSION_DESC"
+            default="msg">
+            <option value="msg">COM_CONVERTFORMS_DISPLAY_MSG</option>
+            
+            <option value="url">COM_CONVERTFORMS_REDIRECT_USER</option>
+            
+            
+        </field>
+        <field name="successmsg" type="textarea"
+            label="COM_CONVERTFORMS_SUCCESS_TEXT"
+            description="COM_CONVERTFORMS_SUCCESS_TEXT_DESC"
+            default="Thank you"
+            class="span12 editorx show-smart-tags"
+            hint="Thank you"
+            showon="onsuccess:msg">
+        </field>
+        <field name="resetform" type="radio" 
+            label="COM_CONVERTFORMS_RESET_FORM"
+            description="COM_CONVERTFORMS_RESET_FORM_DESC"
+            class="btn-group"
+            default="1"
+            showon="onsuccess:msg">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field name="hideform" type="radio" 
+            label="COM_CONVERTFORMS_HIDE_FORM"
+            description="COM_CONVERTFORMS_HIDE_FORM_DESC"
+            class="btn-group"
+            default="1"
+            showon="onsuccess:msg">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        <field name="hidetext" type="radio" 
+            label="COM_CONVERTFORMS_HIDE_TEXT"
+            description="COM_CONVERTFORMS_HIDE_TEXT_DESC"
+            class="btn-group"
+            default="0"
+            showon="onsuccess:msg">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        
+        <field name="successurl" type="text" 
+            label="COM_CONVERTFORMS_SUCCESS_URL"
+            description="COM_CONVERTFORMS_SUCCESS_URL_DESC"
+            class="span12"
+            hint="http://"
+            showon="onsuccess:url">
+        </field>
+        <field name="passdata" type="radio" 
+            label="COM_CONVERTFORMS_PASS_DATA"
+            description="COM_CONVERTFORMS_PASS_DATA_DESC"
+            class="btn-group"
+            default="0"
+            showon="onsuccess:url">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+        
+    </fieldset>
+	<fieldset name="behavior" label="Behavior" tab="behavior" addfieldpath="plugins/system/nrframework/fields">
+		<field name="state" type="list"
+            label="JSTATUS"
+            description="NR_FIELD_STATE_DESC"
+            class="chzn-color-state"
+            size="1"
+            default="1">
+            <option value="1">JPUBLISHED</option>
+            <option value="0">JUNPUBLISHED</option>
+            <option value="2">JARCHIVED</option>
+            <option value="-2">JTRASHED</option>
+        </field>
+        <field name="noteeb" type="nrurl"
+            label="COM_CONVERTFORMS_ENGAGEBOX"
+            url="http://www.tassos.gr/joomla-extensions/engagebox"
+            text="Engage Box is what you need"
+        />
+        <field name="id" type="hidden"
+            label="JGLOBAL_FIELD_ID_LABEL"
+            description="JGLOBAL_FIELD_ID_DESC"
+            default="0"
+            readonly="true"
+            class="readonly"
+        />
+    </fieldset>
+</form>

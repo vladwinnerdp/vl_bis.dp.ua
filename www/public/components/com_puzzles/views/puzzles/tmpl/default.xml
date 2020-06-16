@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_PUZZLES_VIEW_PUZZLES">
+		<message>COM_PUZZLES_VIEW_PUZZLES_DESC</message>
+	</layout>
+	<fields name="request">
+		<fieldset name="request"
+				  addfieldpath="/administrator/components/com_bis/models/fields">
+
+			<field
+					name="id"
+					type="modal_puzzle"
+					label="COM_PUZZLE_SELECT_PUZZLE_LABEL"
+					description="COM_PUZZLE_SELECT_PUZZLE_DESC"
+					required="true"
+					select="true"
+					clear="true"
+			/>
+		</fieldset>
+	</fields>
+</metadata>

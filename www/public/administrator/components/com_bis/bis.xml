@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.2.0" method="upgrade">
+
+	<name>BIS</name>
+	<!-- The following elements are optional and free of formatting constraints -->
+	<creationDate>December 2017</creationDate>
+	<!--  The version string is recorded in the components table -->
+	<version>0.0.22</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>BIS</description>
+
+	<!-- Site Main File Copy Section -->
+	<!-- Note the folder attribute: This attribute describes the folder
+		to copy FROM in the package to install therefore files copied
+		in this section are copied from /site/ in the package -->
+	<update> <!-- Runs on update; New since J2.5 -->
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		</schemas>
+	</update>
+
+	<administration>
+		<!-- Administration Menu Section -->
+         <!-- Administration Menu Section -->
+                <menu link='index.php?option=com_bis'>COM_BIS</menu>
+                <submenu>
+                        <menu link="option=com_bis&amp;view=events">COM_BIS_EVENTS</menu>
+                </submenu>
+
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder
+			to copy FROM in the package to install therefore files copied
+			in this section are copied from /admin/ in the package -->
+		<files folder="admin">
+			<!-- Admin Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>bis.php</filename>
+			<filename>controller.php</filename>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<!-- SQL files section -->
+			<!-- tables files section -->
+			<folder>tables</folder>
+			<!-- models files section -->
+			<folder>models</folder>
+			<!-- views files section -->
+			<folder>views</folder>
+			<folder>sql</folder>
+      <!-- controllers files section -->
+			<folder>controllers</folder>
+		</files>
+		<languages>
+			<language tag="ru-RU">ru-RU.com_bis.ini</language>
+			<language tag="ru-RU">ru-RU.com_bis.sys.ini</language>
+			<language tag="en-GB">en-GB.com_bis.ini</language>
+		</languages>
+	</administration>
+
+</extension>

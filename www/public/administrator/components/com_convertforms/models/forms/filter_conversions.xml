@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="filter" addfieldpath="administrator/components/com_convertforms/models/forms/fields">
+		<field name="search" type="text"
+			label="JSEARCH_FILTER_LABEL"
+			hint="JSEARCH_FILTER"
+		/>
+		<field name="state" type="status"
+			filter="-2,0,1"
+			label="JPUBLISHED"
+			onchange="this.form.submit();">
+			<option value="">JOPTION_SELECT_PUBLISHED</option>
+		</field>
+        <field name="campaign_id" type="campaigns"
+            label="COM_CONVERTFORMS_CAMPAIGN"
+            description="COM_CONVERTFORMS_CAMPAIGN"
+            onchange="this.form.submit();">
+            <option>COM_CONVERTFORMS_CAMPAIGN_SELECT</option>
+        </field>
+        <field name="form_id" type="convertforms"
+            label="COM_CONVERTFORMS_FORM"
+            description="COM_CONVERTFORMS_FORM"
+            onchange="this.form.submit();">
+            <option>COM_CONVERTFORMS_FORM_SELECT</option>
+        </field>
+        <field name="created_from" type="calendar" 
+        	label="Start Date"
+        	hint="Start Date"
+        	format="%Y-%m-%d"
+        	onchange="this.form.submit();"
+        />
+        <field name="created_to" type="calendar" 
+        	label="End Date"
+        	hint="End Date"
+        	format="%Y-%m-%d"
+        	onchange="this.form.submit();"
+        />
+        <field name="columns" type="leadcolumns" 
+        	label="Choose Columns"
+        	onchange="this.form.submit();">
+			<option value="created">COM_CONVERTFORMS_CREATED</option>
+			<option value="user_id">COM_CONVERTFORMS_USER_ID</option>
+			<option value="user_username">COM_CONVERTFORMS_USER_USERNAME</option>
+			<option value="visitor_id">COM_CONVERTFORMS_VISITOR_ID</option>
+			<option value="form_name">COM_CONVERTFORMS_FORM_NAME</option>
+			<option value="campaign_name">COM_CONVERTFORMS_CAMPAIGN_NAME</option>
+			<option value="id">COM_CONVERTFORMS_ID</option>
+        </field>
+	</fields>
+	<fields name="list">
+		<field
+			name="fullordering"
+			type="list"
+			label="NR_LIST_FULL_ORDERING"
+			description="NR_LIST_FULL_ORDERING_DESC"
+			onchange="this.form.submit();"
+			default="a.ordering ASC">
+			<option value="">JGLOBAL_SORT_BY</option>
+			<option value="a.id ASC">JGRID_HEADING_ID_ASC</option>
+			<option value="a.id DESC">JGRID_HEADING_ID_DESC</option>
+			<option value="a.state ASC">JSTATUS_ASC</option>
+			<option value="a.state DESC">JSTATUS_DESC</option>
+			<option value="a.created ASC">JDATE_ASC</option>
+			<option value="a.created DESC">JDATE_DESC</option>
+			<option value="a.campaign_id ASC">COM_CONVERTFORMS_CAMPAIGN_ASCENDING</option>
+			<option value="a.campaign_id DESC">COM_CONVERTFORMS_CAMPAIGN_DESCENDING</option>
+			<option value="a.form_id ASC">COM_CONVERTFORMS_FORM_ASCENDING</option>
+			<option value="a.form_id DESC">COM_CONVERTFORMS_FORM_DESCENDING</option>
+		</field>
+		<field
+			name="limit"
+			type="limitbox"
+			class="input-mini"
+			default="10"
+			label="NR_LIST_LIMIT"
+			description="NN_LIST_LIMIT_DESC"
+			onchange="this.form.submit();"
+		/>
+	</fields>
+</form>

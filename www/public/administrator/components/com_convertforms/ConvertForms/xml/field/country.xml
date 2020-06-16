@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fieldset name="basic">
+        <field name="save" type="list" 
+            label="COM_CONVERTFORMS_FIELD_COUNTRY_VALUE"
+            description="COM_CONVERTFORMS_FIELD_COUNTRY_VALUE_DESC"
+            default="name">
+            	<option value="name">COM_CONVERTFORMS_FIELD_COUNTRY_NAME</option>
+            	<option value="code">COM_CONVERTFORMS_FIELD_COUNTRY_CODE</option>
+        </field>
+        <field name="detectcountry" type="list" 
+            label="COM_CONVERTFORMS_FIELD_COUNTRY_DETECT"
+            description="COM_CONVERTFORMS_FIELD_COUNTRY_DETECT_DESC"
+            default="0">
+            	<option value="0">JNO</option>
+            	<option value="1">JYES</option>
+        </field>
+    </fieldset>
+</form>

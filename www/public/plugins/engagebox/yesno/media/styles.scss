@@ -1,0 +1,45 @@
+@import "../../../../media/com_rstbox/scss/site/settings";
+
+$gutter: 25px;
+
+.ebox-yes-no {
+	text-align:center;
+	line-height:1.2;
+}
+
+.ebox-yn-text {
+	margin-bottom: $gutter;
+}
+
+.ebox-ys-footer {
+	margin-top: $gutter/2;
+}
+
+.ebox-ys-btn {
+	border-radius:3px;
+	display:inline-block;
+	padding:10px 20px;
+	line-height: 1.3;
+	margin:5px;
+	font-weight:bold;
+	text-decoration:none !important;
+	border:solid 3px rgba(0,0,0,.04);
+	transition: all 200ms linear;
+
+	&:hover {
+		opacity:.9;
+	}
+}
+
+.ebox-ys-subtext {
+	display:block;
+	font-size:12px;
+}
+
+
+@media #{$small-only} {
+	.ebox-ys-btn {
+		padding:5px;
+		font-size:18px !important;
+	}
+}

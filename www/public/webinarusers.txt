@@ -1,0 +1,95 @@
+60 name: Dіма phone: 380111111111 email: azdmbg333@gmail.com Amount=972.00
+65 name: Dіма phone: 380111111111 email: azdmbg@gmail.com Amount=6938.00
+66 name: Vogt  phone: 0675603303 email: Vls@arbooz.org Amount=972.00
+67 name: Vogt  phone: 0675603303 email: Vls@arbooz.org Amount=972.00
+68 name: Никита phone: 380501037198 email: vasukovnick@gmail.com Amount=972.00
+69 name: vlas phone: 0675603303 email: vls@arbooz.org Amount=6938.00
+70 name: vlaadimir phone: 0675603303 email: vvv@aasd.com Amount=972.00
+71 name: Dіма phone: 380111111111 email: azdmbg@gmail.com Amount=972.00
+72 name: еуіе phone: 636025026 email: test@ukr.net Amount=972.00
+73 name: 7097098089 email: vgh@kjhk.com form_id: 1 Amount=
+74 name: 7869897080 email: vgh@jhgj.com form_id: 1 Amount=
+75 name: 8758769 email: vg@jk.com form_id: 1 Amount=
+76 name: 8758769 email: vls@arbooz.org form_id: 1 Amount=
+77 name: Ivan phone: 0673827262 email: i.larinov@gmail.com Amount=6938.00
+78 name: 798426542 email: nikita@gmail.com form_id: 1 Amount=
+79 name: 0675604567 email: vls@arbooz.org form_id: 1 Amount=
+80 name: 0675684932 email: vls@arbooz.com form_id: 1 Amount=
+81 name: тест phone: 0786547392 email: vls@arbooz.com Amount=972.00
+82 name: тест phone: 0674563425 email: vls@arbooz.com Amount=6938.00
+83 name: тест phone: 67687987990 email: vls@arbooz.org hidden_4: 
+  fbq('track', 'InitiateCheckout');
+ form_id: 1 Amount=
+84 name:  phone:  email:  hidden_4: 
+  fbq('track', 'InitiateCheckout');
+ form_id: 1 Amount=
+85 name: khlkhl phone: 86899 email: vls@arbooz.org Amount=972.00
+86 name: Dіма phone: 380111111111 email: dm_bg@mail.ru Amount=972.00
+87 name: Sobir phone: 998972785545 email: sobirjon.@mail.ru Amount=6938.00
+88 name: Sobir phone: 998972785545 email: sobirjon.@mail.ru Amount=6938.00
+89 name: лопло phone: 111111111111 email: vls@arbooz.org Amount=6938.00
+90 name: Анна phone: +380957505053 email: agorobej@gmail.com hidden_4: 
+  fbq('track', 'InitiateCheckout');
+ form_id: 1 Amount=
+91 name: привет тест phone: 0675603303 email: vkl@arbooz.org hidden_4: 
+  fbq('track', 'InitiateCheckout');
+ form_id: 1 Amount=
+92 name: привет тест 2 phone: 0675603303 email: vbk@arbooz.org hidden_4: 
+  fbq('track', 'InitiateCheckout');
+ form_id: 1 Amount=
+93 name: привет тест 3 phone: 0675603303 email: vcb@arbooz.org Amount=972.00
+94 name: привет тест 4 phone: 0675603303 email: cvb@arbooz.org Amount=6938.00
+95 name: Азат phone: 87471081874 email: azat.zhetpis@mail.ru hidden_4: 
+  fbq('track', 'InitiateCheckout');
+ form_id: 1 Amount=
+96 name: vladproba phone: 0934092384092384-2 email: vls@arbooz.org form_id: 1 Amount=
+97 name: Dіма phone: 380111111111 email: azdmbg@gmail.com Amount=1800
+98 name: Dіма phone: 380111111111 email: azdmbg@gmail.com Amount=6938.00
+99 name: Никита phone: +380501037198 email: nikita@gmail.com Amount=1800
+100 name: Никита phone: +380501037198 email: nikita@gmail.com Amount=1800
+101 name: Vlad phone: 0675603303 email: vls@arbooz.org Amount=1800
+102 name: vld phone: 0675603303 email: vls@arbooz.org Amount=1800
+103 name: влад phone: 0675603303 email: vls@arbooz.org Amount=1800
+104 name: влад phone: 0675603303 email: vls@arbooz.org Amount=1800
+105 name: Никита phone: +380501037198 email: test@gmail.com Amount=1800
+106 name: vlad phone: 0675603303 email: vls@arbooz.org Amount=1800
+107 name: влад phone: 0675603303 email: vls@arbooz.org Amount=1800
+108 name: Test phone: 380111111111 email: azdmbg@gmail.com Amount=1800
+109 name: Test phone: 380111111111 email: azdmbg@gmail.com Amount=1800
+110 name: test phone: 380111111111 email: azdmbg@gmail.com Amount=1800
+111 name: Test phone: 380111111111 email: azdmbg@gmail.com Amount=1800
+112 name: Test phone: 380111111111 email: azdmbg@gmail.com Amount=1800
+113 name: Test phone: +38(011) 111 11 11 email: d.abramov@arbooz.com Amount=1800
+114 name: v phone: 380995069132 email: vls@arbooz.org Amount=1800
+115 name: имр phone: 1111111111111 email: vls@arbooz.org Amount=1800
+116 name: nikita phone: +380501037198 email: vasukovnick@gmail.com Amount=65
+117 name: nikita phone: +380501037198 email: vasukovnick@gmail.com Amount=1
+118 name: nikita phone: +380501037198 email: vasukovnick@gmail.com Amount=1
+119 name: nikita phone: 501037198 email: n.vasukov@arbooz.com Amount=1
+120 name: nikita phone: 501037198 email: vasukovnick@gmail.com Amount=813
+121 name: vlad phone: 0675603303 email: vls@arbooz.org Amount=813
+122 name: nikita phone: 501037198 email: vasukovnick@gmail.com Amount=1822
+123 name: nikita phone: 501037198 email: vasukovnick@gmail.com Amount=2100
+124 name: nikita phone: 501037198 email: vasukovnick@gmail.com Amount=21000
+125 name: nikita phone: 501037198 email: vasukovnick@gmail.com Amount=6938.00
+126 name: nikita phone: 501037198 email: vasukovnick@gmail.com Amount=6938.00
+127 name: TEST phone: +38050137198 email: vasukovnick@gmail.com Amount=21000
+128 name: TEST phone: +38050137198 email: vasukovnick@gmail.com Amount=21000
+129 name: TEST phone: +38050137198 email: vasukovnick@gmail.com Amount=1820
+130 name: TEST phone: +38050137198 email: vasukovnick@gmail.com Amount=1820
+131 name: nikita phone: 501037198 email: vasukovnick@gmail.com Amount=812
+132 name: nikita phone: 501037198 email: vasukovnick@gmail.com Amount=1820
+133 name: nikita phone: 501037198 email: vasukovnick@gmail.com Amount=1820
+134 name: vlad phone: 0675603303 email: vls@arbooz.org Amount=1820
+135 name: vlad phone: 0675603303 email: vls@arbooz.org Amount=1820
+136 name: nikita phone: 501037198 email: vasukovnick@gmail.com Amount=1820
+137 name: nikita phone: 501037198 email: vasukovnick@gmail.com Amount=1820
+138 name: nikita phone: 501037198 email: vasukovnick@gmail.com Amount=1
+139 name: nikita phone: 501037198 email: vasukovnick@gmail.com Amount=1
+140 name: nikita phone: 501037198 email: vasukovnick@gmail.com Amount=1820
+141 name: nikita phone: 501037198 email: vasukovnick@gmail.com Amount=1820
+142 name: nikita phone: 501037198 email: vasukovnick@gmail.com Amount=1
+143 name: nikita phone: 501037198 email: vasukovnick@gmail.com Amount=1
+144 name: Влад phone: 0675603303 email: vls@arbooz.org Amount=1820
+145 name: test phone: 0999999999 email: test@test.com Amount=1820
+146 name: test phone: 0999999999 email: test@test.com Amount=1820

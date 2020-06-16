@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" method="upgrade" version="2.5">
+    <name>Prizolove Library</name>
+    <libraryname>pl_lib</libraryname>
+    <version>0.0.2</version>
+    <files>
+        <filename>library.php</filename>
+        <folder>helper</folder>
+    </files>
+</extension>

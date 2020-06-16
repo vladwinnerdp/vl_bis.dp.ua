@@ -1,0 +1,15 @@
+Array
+(
+    [ik_co_id] => 5c04fc5c3b1eafa5638b4567
+    [ik_pm_no] => 
+    [ik_am] => 972.00
+    [ik_cur] => UAH
+    [ik_desc] => Оплата за Блок 1
+    [cf] => Array
+        (
+            [name] => Dіма
+            [phone] => 380111111111
+            [email] => azdmbg@gmail.com
+        )
+
+)

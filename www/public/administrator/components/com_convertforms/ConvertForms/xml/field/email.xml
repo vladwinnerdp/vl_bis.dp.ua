@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fieldset name="basic">
+        <field name="dnscheck" type="list" 
+            label="COM_CONVERTFORMS_FIELD_EMAIL_DNSCHECK"
+            description="COM_CONVERTFORMS_FIELD_EMAIL_DNSCHECK_DESC"
+            default="0">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+        </field>
+    </fieldset>
+</form>

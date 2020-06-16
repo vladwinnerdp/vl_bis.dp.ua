@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5"
+           type="plugin"
+           group="ajax"
+           method="upgrade">
+    <name>Requests</name>
+    <version>0.1</version>
+    <author>Dmitry</author>
+    <license>GNU General Public License version 2 or later</license>
+    <description>Events</description>
+
+    <files>
+        <filename plugin="requests">requests.php</filename>
+    </files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+            </fieldset>
+        </fields>
+    </config>
+
+</extension>

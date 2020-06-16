@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset>
+        <field
+            name="block_title"
+            type="textarea"
+            rows="5"
+            cols="35"
+            label="COM_BIS_EVENT_BLOCK_TITLE_LABEL"
+            description=""
+            size="100"
+            filter="raw"
+        />
+        <field
+            name="block_description"
+            type="textarea"
+            rows="5"
+            cols="35"
+            label="COM_BIS_EVENT_PUZZLE_BLOCK_DESCRIPTION_LABEL"
+            size="40"
+            default=""
+            filter="raw"
+        />
+    </fieldset>
+</form>

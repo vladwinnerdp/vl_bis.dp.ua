@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+
+	<name>Puzzles</name>
+	
+	<creationDate>December 2018</creationDate>	
+	<version>0.0.1</version>	
+	
+	<description>Description of the Puzzles component ...</description>
+
+	
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>puzzles.php</filename>
+		<filename>controller.php</filename>
+		<folder>views</folder>
+		<folder>models</folder>
+	</files>
+	<administration>
+	</administration>
+</extension>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fieldset name="basic">
+        <field name="confirmfield" type="text"
+        	label="COM_CONVERTFORMS_FIELD_CONFIRM_FIELD"
+        	description="COM_CONVERTFORMS_FIELD_CONFIRM_FIELD_DESC"
+        	class="span12"
+        />
+    </fieldset>
+</form>
